@@ -1,0 +1,16 @@
+0. Start OBS screen recording
+1.  Connect laptop to power and FMS
+2.  Open Driver Station and Dashboard
+3.  Open graphs and enable print statements
+4.  Check both game controllers
+5.  Check speaker volume
+6.  Confirm robot connection and battery voltage
+7.  Confirm full comms, reboot RIO if needed
+8. Set auto play and push robot pose
+9. Confirm driver profile
+10. Set auto delay and scoring height
+11. Confirm arm position, re-zero if needed
+12. Confirm no master alarms
+13. Confirm all override switches are green
+14. Clear console errors
+15. Leave in the TeleOp tab for drivers

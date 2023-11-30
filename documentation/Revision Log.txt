@@ -1,0 +1,70 @@
+-- Known Issues --
+
+-- Untested Features --
+
+-- Releases --
+
+v2.3
+> Adding alarms and readouts for the the hybrid node time-of-flight sensor.
+> Adding a selector for what state the robot should enter when TeleOp begins.
+
+v2.2
+> Adding graphics to display the scored hybrid nodes.
+> Tweaking the dynamic overlay sizes.
+
+v2.1
+> The planned auto path is now displayed on the field map.
+
+v2.0
+> Updating the reticles.
+> Custom auto scoring position selector.
+> Dynamic overlays are visible when in the HOPPER state.
+> Adding gripper state indicators.
+> Changing the zoom on the 3D arm graphic.
+> Adding indicator for auto-targeting.
+> Adding gripper motor alarms.
+> Adding gripper sensor readouts.
+> Values wired to the default terminal of "NT Get Boolean Array.vi" are now honored.
+> Updating to FrC Game Tools v2023.2.
+> Adding red/blue grid calibration controls.
+> Enabling the dynamic driver overlays.
+> Adding an ALARM if the drive motors fail.
+> Displaying the swerve output loop time to the Dashboard.
+> Now sends a command to unlock the azimuth motors when calibrating.
+> Removing gripper and hopper indicators and controls.
+> Changing the default Auto-Targeting Overide setting.
+
+v1.1
+> Final version run at the Arkansas Regional.
+> Adding an override for the hopper sensor.
+> Disabling the dynamic targeting overlays.
+
+v0.6
+> Fixing a bug with auto play refresh button.
+> Displaying the current end effector position.
+> Adding arm alarm indicators.
+> Zooming out on the arm 3D plot.
+> Flipping the arm base transform 180 degrees.
+
+v0.5
+> Adds an auto-targeting override switch.
+> Enables the targeting reticules.
+> Modifies the indicators for the gripper subsystem.
+> Adding indicators for future auto-targeting capabilities.
+> Adding indicators for the hopper subsystem.
+> Engages the safeties switch if the robot code disconnects.
+> Preventing a race condition associated with the robot code connection flag.
+> Fixing issues related to the NT Get Boolean Array.vi bug.
+
+v0.4
+> All NT values will be re-sent every time the robot re-connects to the Dashboard.
+> Changing some of the master alarms and audio cues for clarity.
+> Adding gripper indicators.
+> Adding arm controls and indicators.
+> Adding 3D arm visualization.
+> Removes support for the "robot systems diagram."
+
+v0.3
+> General cleanup of the user interface.
+> The suggested autonomous starting location is automatically inserted into the Push Robot Pose fields.
+> Updates the robot pose plot coloring and rotation behavior to work with the 2023 game and support RED vs. BLUE alliance behaviors.
